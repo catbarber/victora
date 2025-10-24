@@ -23,7 +23,8 @@ const About = () => {
             <div className="container">
                 {/* Header Section */}
                 <div className="page-header">
-                    <SailingIcon className="title-icon" />
+                    {/* <SailingIcon className="title-icon" /> */}
+                    <br /><br />
                     <h1 className="page-title">About The Voyages of Victora</h1>
                     <p className="page-subtitle">Discover the world behind the adventure</p>
                 </div>
@@ -80,6 +81,7 @@ const About = () => {
                 <section className="about-section">
                     <div className="section-header">
                         <PublicIcon className="section-icon" />
+
                         <h2>The World</h2>
                     </div>
                     <div className="section-content">

@@ -1,4 +1,19 @@
-ul>li>a {
-  color: var(--treasure-gold) !important;
-  text-decoration: none !important;
+/* unvisited link */
+a:link {
+  color: white !important;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
 }
