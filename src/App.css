@@ -345,13 +345,13 @@ p {
 
 .book-content {
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
 
 }
 
 .book-card-content {
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -998,9 +998,6 @@ p {
   --shadow-button: 0 4px 12px rgba(32, 201, 151, 0.4);
   --shadow-glow: 0 0 20px rgba(212, 175, 55, 0.5);
 }
-
-/* Import Pirate Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Pirata+One&display=swap');
 
 /* Donation Page Container */
 .donation-page {

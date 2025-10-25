@@ -17,3 +17,7 @@ a:hover {
 a:active {
   color: white;
 }
+
+a {
+  text-decoration: none !important;
+}

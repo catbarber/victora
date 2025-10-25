@@ -113,9 +113,10 @@ const Layout = ({ children }) => {
                                 <li key={item.path}>
                                     <Link
                                         to={item.path}
+                                        style={{ textDecoration: 'none', color: 'white' }}
                                         className={`nav-link ${location.pathname === item.path ? 'active' : ''} ${item.highlight ? 'highlight' : ''}`}
                                     >
-                                        {!isMobile && item.icon}
+                                        {!isMobile && <span>{item.icon}</span>}&nbsp;
                                         <span>{item.label}</span>
                                     </Link>
                                 </li>
