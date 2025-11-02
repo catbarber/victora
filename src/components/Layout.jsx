@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
         { path: '/', label: 'Home', icon: <HomeIcon /> },
         { path: '/book-series', label: 'Book Series', icon: <MenuBookIcon /> },
         { path: '/about', label: 'About', icon: <InfoIcon /> },
-        { path: '/donation', label: 'Support the Crew', icon: <LocalAtmIcon />, highlight: true }
+        // { path: '/donation', label: 'Support the Crew', icon: <LocalAtmIcon />, highlight: true }
     ];
 
     const socialLinks = [

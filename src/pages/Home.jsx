@@ -45,10 +45,10 @@ const Home = () => {
                             <YouTubeIcon className="social-icon" />
                             <span>YouTube</span>
                         </a>
-                        <Link to="/donation" className="social-link support-link">
+                        {/* <Link to="/donation" className="social-link support-link">
                             <LocalAtmIcon className="social-icon" />
                             <span>Support the Voyage</span>
-                        </Link>
+                        </Link> */}
                     </div>
 
                     <div className="scroll-indicator">
@@ -76,7 +76,7 @@ const Home = () => {
                                         As the crew faces the challenges of treacherous waters and formidable foes, they must rely on their wits, and bonds to succeed. "The Voyages of Victora" is a swashbuckling adventure that captures the spirit of exploration and the thrill of the hunt. Join Captain Bartley and his crew as they navigate the perils of the sea in pursuit of glory and fortune.
                                     </p>
                                     <div className="book-actions">
-                                        <Link href="https://www.amazon.ca/dp/B0DQJWVS97/ref=cbw_us_ca_dp_narx_gl_book" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                                        <Link href="https://a.co/d/3xSFLnp" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                                             <ShoppingBasketOutlinedIcon />
                                             {isMobile ? 'Paperback' : 'Paperback Edition'}
                                         </Link>
