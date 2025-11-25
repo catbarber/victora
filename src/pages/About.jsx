@@ -63,7 +63,7 @@ const About = () => {
                                 </p>
                                 <div className="author-links">
                                     <a
-                                        href="https://chris-feveck.com"
+                                        href="https://chris-feveck.web.app/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="author-link"

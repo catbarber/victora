@@ -10,6 +10,7 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import AdComponent from '../components/AdComponent/AdComponent';
 
 const Layout = ({ children }) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -93,7 +94,7 @@ const Layout = ({ children }) => {
         <div className="app-container">
             {/* Header */}
             <header className={`header ${isScrolled ? 'scrolled' : ''} ${mobileMenuOpen ? 'menu-open' : ''}`}>
-                <div className="nav-container">
+&nbsp;                <div className="nav-container">
                     <nav className="nav">
                         {/* Logo */}
                         <Link
@@ -188,7 +189,9 @@ const Layout = ({ children }) => {
             <main className="main-content">
                 {children}
             </main>
-
+<div style={{color:"#000",  display:"flex", justifyContent:"center", alignContent:"center", margin:"2rem auto"  }}>
+        <AdComponent />
+      </div>
             {/* Footer */}
             <footer className="footer">
                 <div className="footer-container">
